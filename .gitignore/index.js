@@ -8,7 +8,7 @@ var servers = {};
 
 client.login(process.env.TOKEN);
 
-client.login("NTE4MzI2MzM5NDY4NTI1NTgz.DuPJkg.s-Sap_5PxbjhR-oOjB6jfM3hrNY");
+client.login(process.env.TOKEN);
 
 function play(connection, message) {
   
